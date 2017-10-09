@@ -48,16 +48,7 @@
     background-image: url('../img/png/quote-block-background-2.png');
 }
 
-@media (max-width: 768px) {
-    .navbar:not(.top-nav-collapse) {
-        background: #7d8488 !important;
-        /*background-color: #7d8488 !important;*/
-        /*background: -webkit-linear-gradient(90deg, rgba(8, 65, 105, 0.2), rgba(229, 229, 229, 0.4) 100%);*/
-        /*background: -webkit-linear-gradient(90deg, rgba(8, 65, 105, 0.2), rgba(229, 229, 229, 0.4) 100%);*/
-        /*background: linear-gradient(to 45deg, rgba(29, 236, 197, 0.5), rgba(96, 0, 136, 0.6) 100%);*/
-    }
 
-}
 
 .hm-gradient .full-bg-img {
     background: -webkit-linear-gradient(45deg, rgba(8, 65, 105, 0.5), rgba(229, 229, 229, 0.9) 100%);
