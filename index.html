@@ -67,14 +67,20 @@
                            href="#get-in-touch">Get in touch</a>
                     </li>
 
+                    <li class="nav-item not-activable pl-2">
+                        <a class="navbar-text d-inline-flex nav-link  pb-0 " href="#"><i
+                                class="corporate-color-dark  fa fa-linkedin-square" aria-hidden="true"></i></a>
+                    </li>
+                    <li class="nav-item not-activable pt-2 pr-2 ">
 
-                    <li class="nav-item pt-2 px-2 ">
-                        <a class="navbar-text  nav-link  pb-0" style="color: #003366" href="#">
-                            <a class="navbar-text d-inline-flex nav-link  pb-0 " href="tel:+1-202-555-0144"><i
-                                    class="corporate-color-dark  fa fa-linkedin-square" aria-hidden="true"></i></a>
+
+
+                        <a class="  nav-link  pb-0" style="color: #003366" href="tel:+1-202-555-0144">
+
 
                             <i class="fa fa-phone" aria-hidden="true"></i>
-                            +1-202-555-0144</a>
+                            +1-202-555-0144
+                        </a>
                     </li>
 
                 </ul>
@@ -869,7 +875,7 @@
 
 <script>
     jQuery(function ($) {
-        $('.nav-item ').click(function (e) {
+        $('.nav-item:not(.not-activable) ').click(function (e) {
             $('.nav-item ').removeClass('active');
             $(this).addClass('active');
         });
