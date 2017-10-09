@@ -9,9 +9,7 @@
 .navbar:not(.top-nav-collapse) {
 
     background: #D5D5D5 !important;
-    background: -webkit-linear-gradient(45deg, rgba(221, 221, 221, 0.7), rgba(204, 204, 204, 0.9) 100%);
-    background: -webkit-linear-gradient(45deg, rgba(221, 221, 221, 0.7), rgba(204, 204, 204, 0.9) 100%);
-    background: linear-gradient(to 45deg, rgba(221, 221, 221, 0.7), rgba(204, 204, 204, 0.9) 100%);
+    /*background-image: -webkit-linear-gradient(45deg, rgba(8, 65, 105, 0.5), rgba(229, 229, 229, 0.9) 100%);*/
     color: #3399cc !important;
 }
 
@@ -24,6 +22,10 @@
 }
 .corporate-color-light {
     color: #3399cc !important;
+}
+
+.btn-corporate-color-light{
+    background-color: #3399cc !important;
 }
 .corporate-font-dark {
     font-family: "DDT Book";
@@ -108,5 +110,10 @@
 
 footer.page-footer .footer-copyright {
     height: auto;
-    background: #D5D5D5 !important;
+    background-image: -webkit-linear-gradient(45deg, rgba(169, 169, 169, 0.79), rgba(229, 229, 229, 0.9) 100%);
+}
+
+.divider-new:after, .divider-new:before {
+
+    background: rgba(0, 51, 102, 0.2);
 }
