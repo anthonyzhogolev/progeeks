@@ -7,8 +7,8 @@
 
 .navbar:not(.top-nav-collapse) {
 
-    background: #D5D5D5 !important;
-    /*background-image: -webkit-linear-gradient(45deg, rgba(8, 65, 105, 0.5), rgba(229, 229, 229, 0.9) 100%);*/
+    /*background: #D5D5D5 !important;*/
+    background-image: -webkit-linear-gradient(90deg,  rgba(213, 213, 213,1) ,rgba(240, 240, 240, 1)    );
     color: #3399cc !important;
 }
 
@@ -124,11 +124,14 @@ footer.page-footer .footer-copyright {
     color: #3399cc !important;
 }
 
-.nav-current {
-    text-decoration: underline;
+.navbar.navbar-light .navbar-nav .nav-item .nav-link {
+
+    color:  #808D9E!important;
 }
 
 .navbar.navbar-light .navbar-nav .nav-item.active>.nav-link {
     background: inherit;
     border-bottom: 1px solid #3399cc;
+    color:  #003366!important;
 }
+
