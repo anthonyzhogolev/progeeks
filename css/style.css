@@ -133,3 +133,17 @@ footer.page-footer .footer-copyright {
 
     /*background-color: rgba(255, 255, 255, 0.5);*/
 }
+
+@media (max-width: 740px) {
+
+
+    .top-social-icons {
+        font-size: 16px;
+    }
+}
+
+
+
+    .top-social-icons {
+        font-size: 20px;
+    }
