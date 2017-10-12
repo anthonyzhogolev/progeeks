@@ -28,7 +28,7 @@
 <header class="">
 
     <!--Navbar-->
-    <nav class="navbar navbar-expand-lg navbar-light  fixed-top       navbar-expand-lg  scrolling-navbar">
+    <nav id="navbar-top" class="navbar navbar-expand-lg navbar-light  fixed-top       navbar-expand-lg  scrolling-navbar">
         <div class="container">
             <a class="mr-auto" href="#">
                 <img src="img/svg/logo.svg" height="40" class="d-inline-block  " alt="">
@@ -883,6 +883,11 @@
             $('.nav-item ').removeClass('active');
             $(this).addClass('active');
         });
+
+        $('.nav-item').click(function (e) {
+
+            $(this).closest('.collapse').collapse('hide');
+        });
         $(window).on('load scroll', function (e) {
 
             $('.js-nav-container').each(function (index, item) {
@@ -892,9 +897,12 @@
                     $('.nav-link[href="#' + $(item).attr('id') + '"]').closest('.nav-item').addClass('active');
                 }
             })
-        })
+        });
+
     });
 
+    
+//$('body').scrollspy({ target: '#navbarSupportedContent' })
 
 </script>
 
