@@ -4,11 +4,10 @@
     src: url('../font/ddt/9e0af7b266012759dfab3e8052917943.ttf');
 }
 
-
 .navbar:not(.top-nav-collapse) {
 
     /*background: #D5D5D5 !important;*/
-    background-image: -webkit-linear-gradient(90deg,  rgba(213, 213, 213,1) ,rgba(240, 240, 240, 1)    );
+    background-image: -webkit-linear-gradient(90deg, rgba(213, 213, 213, 1), rgba(240, 240, 240, 1));
     color: #3399cc !important;
 }
 
@@ -19,24 +18,24 @@
 .corporate-color-dark {
     color: #003366 !important;
 }
+
 .corporate-color-light {
     color: #3399cc !important;
 }
 
-.btn-corporate-color-light{
+.btn-corporate-color-light {
     background-color: #3399cc !important;
 }
+
 .corporate-font-dark {
     font-family: "DDT Book";
     color: #003366 !important;
 }
 
-
 .corporate-font-light {
     font-family: "DDT Book";
     color: #3399cc !important;
 }
-
 
 .navbar {
     background-color: transparent;
@@ -47,8 +46,6 @@
     background-size: cover;
     background-image: url('../img/png/quote-block-background-2.png');
 }
-
-
 
 .hm-gradient .full-bg-img {
     background: -webkit-linear-gradient(45deg, rgba(8, 65, 105, 0.5), rgba(229, 229, 229, 0.9) 100%);
@@ -73,9 +70,7 @@
     color: #000 !important;
 }
 
-
-@media (min-width: 1366px)
-{
+@media (min-width: 1366px) {
     .streak.streak-photo {
         background-attachment: fixed;
     }
@@ -108,23 +103,24 @@ footer.page-footer .footer-copyright {
     background: rgba(0, 51, 102, 0.2);
 }
 
-.card-body  .card-title {
+.card-body .card-title {
     color: #003366 !important;
 }
+
 .card-body h6 {
     color: #3399cc !important;
 }
 
 .navbar.navbar-light .navbar-nav .nav-item .nav-link {
 
-    color:  #808D9E!important;
+    color: #808D9E !important;
 
 }
 
-.navbar.navbar-light .navbar-nav .nav-item.active>.nav-link {
+.navbar.navbar-light .navbar-nav .nav-item.active > .nav-link {
     background: inherit;
     border-bottom: 1px solid #003366;
-    color:  #003366!important;
+    color: #003366 !important;
 }
 
 .btn-outline-corporate-light {
@@ -133,10 +129,12 @@ footer.page-footer .footer-copyright {
 
     /*background-color: rgba(255, 255, 255, 0.5);*/
 }
+
 .card img {
     border-radius: 50%;
 
 }
+
 .media .media-left img {
     box-shadow: none;
 }
@@ -144,16 +142,22 @@ footer.page-footer .footer-copyright {
 .blockquote {
     font-size: 1rem;
 }
-@media (max-width: 740px) {
 
+@media (max-width: 740px) {
 
     .top-nav-icon-container {
         font-size: 16px;
     }
 }
 
+.top-nav-icon-container {
+    font-size: 20px;
+}
 
+#what-we-do .figure-img {
+        width: 150px;
+}
 
-    .top-nav-icon-container{
-        font-size: 20px;
-    }
+.feature-icon {
+    font-size: 3rem;
+}

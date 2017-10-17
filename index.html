@@ -28,7 +28,8 @@
 <header class="">
 
     <!--Navbar-->
-    <nav id="navbar-top" class="navbar navbar-expand-lg navbar-light  fixed-top       navbar-expand-lg  scrolling-navbar">
+    <nav id="navbar-top"
+         class="navbar navbar-expand-lg navbar-light  fixed-top       navbar-expand-lg  scrolling-navbar">
         <div class="container">
             <a class="mr-auto" href="#">
                 <img src="img/svg/logo.svg" height="40" class="d-inline-block  " alt="">
@@ -60,7 +61,8 @@
 
                     <li class="nav-item pt-2 px-2 top-nav-icon-container">
                         <a class="nav-link   font-weight-bold  pb-0  "
-                           href="#get-in-touch"><i class="fa fa-envelope-square corporate-color-dark" aria-hidden="true"></i></a>
+                           href="#get-in-touch"><i class="fa fa-envelope-square corporate-color-dark"
+                                                   aria-hidden="true"></i></a>
                     </li>
 
                     <li class="nav-item not-activable pl-2 top-nav-icon-container">
@@ -69,7 +71,6 @@
                                 class="corporate-color-dark  fa fa-linkedin-square" aria-hidden="true"></i></a>
                     </li>
                     <li class="nav-item not-activable pt-2 pr-2 ">
-
 
 
                         <a class="  nav-link  pb-0" style="color: #003366" href="tel:+1-202-555-0144">
@@ -130,159 +131,371 @@
 
 </header>
 <main>
-    <div class="container  js-nav-container" id="whyus">
-        <div class="divider-new pt-5">
-            <h2 class="h2-responsive wow fadeIn" data-wow-delay="0.2s">Why us</h2>
+
+    <section class="text-center wow fadeIn section feature-box" data-wow-delay="0.2s" id="what-we-do">
+        <div class="container js-nav-container">
+            <div class="divider-new pt-5">
+                <h2 class="h2-responsive wow fadeIn corporate-color-dark" data-wow-delay="0.2s">What we do</h2>
+            </div>
+            <div class="row">
+                <div class="card-block">
+                    <figure class="figure">
+                        <img src="img/svg/brain-muscle.svg" class="figure-img img-fluid" alt="...">
+                    </figure>
+                    <h3>Team for Rent</h3>
+                    <p>Save time and money and hire our well trained offshore engineers remotely full-time (dedicated)
+                        or hourly on-demand. Both options will save you from HR headaches, people management, employee
+                        taxes, office space or equipment costs, insurance, sick, holiday or vacation payments. You will
+                        pay only for the hours spent working on your tasks and the hourly rate will be much lower
+                        compared to hiring local contractors. Dedicated option provides even lower hourly rate,
+                        guaranteed availability of same person and training on the technology stack of your choice.
+                        Daily progress reports and management included.</p>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-md-4 col-sm-12">
+                    <figure class="figure corporate-color-dark">
+                        <i class="fa feature-icon fa-android" aria-hidden="true"></i>
+                        <i class="fa feature-icon fa-apple" aria-hidden="true"></i>
+                        <i class="fa feature-icon fa-chrome" aria-hidden="true"></i>
+                    </figure>
+                    <h3>Apps</h3>
+                    <p>Get iOS + Android + Web app for the price of one! We use Ionic Framework, Angular, Redux and
+                        TypeScript tied to Amazon Web Services backend and wrapped into Bootstrap or Material Design
+                        frameworks to deliver fast, native and secure applications for all 3 platforms.</p>
+                </div>
+                <div class="col-md-4 col-sm-12">
+                    <figure class="figure corporate-color-dark">
+                        <i class="fa feature-icon fa-globe" aria-hidden="true"></i>
+
+                    </figure>
+                    <h3>Web Sites</h3>
+                    <p>Save your visitors load time! We build extremely fast and slick Angular driven websites talking
+                        over API to AWS serverless infrastructure. This new technology provides speed and security
+                        incomparable to old school PHP + MySQL sites on CMS like Wordpress, Drupal hosted on Linux
+                        servers.</p>
+                </div>
+                <div class="col-md-4 col-sm-12">
+                    <figure class="figure corporate-color-dark">
+                        <i class="fa feature-icon fa-cloud" aria-hidden="true"></i>
+
+                    </figure>
+                    <h3>AWS Cloud</h3>
+                    <p>Save on servers and admins. Amazon Web Services provides wide variety of cloud based solutions
+                        and charge only for what you actually used. Our system engineers will help you to set up and
+                        manage AWS services in a most efficient way using CloudFormation scripts, over AWS Console or
+                        API.</p>
+                </div>
+            </div>
+
         </div>
-        <!--Section: Whyus-->
-        <section class="text-center wow fadeIn section feature-box" data-wow-delay="0.2s">
+    </section>
 
 
-            <!--Grid row-->
-            <!--1-->
-            <div class="row features-big">
+    <section id="pricing">
+        <div class="container">
+            <ul class="nav md-pills nav-justified pills-secondary">
+                <li class="nav-item">
+                    <a class="nav-link active" data-toggle="tab" href="#panel11" role="tab">Full-time (Dedicated)</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" data-toggle="tab" href="#panel12" role="tab">Hourly (On-Demand)</a>
+                </li>
 
-                <!--Grid column-->
-                <div class="col-md-4 mb-r">
+            </ul>
+        </div>
+        <!-- Tab panels -->
+        <div class="tab-content">
 
-                    <figure class="figure">
-                        <img src="img/png/around.png" class="figure-img img-fluid" alt="...">
+            <!--Panel 1-->
+            <div class="tab-pane fade in show active" id="panel11" role="tabpanel">
 
-                    </figure>
+                <!--\: Pricing v.1-->
+                <div class="container">
 
-                    <h5 class="feature-title corporate-color-light font-bold">Smart Local + Offshore Hybrid</h5>
-                    <p class="corporate-color-dark">ProGeeks, LLC is a U.S. company. Your lead developer and primary
-                        point of
-                        contact is in the U.S. as well and available during regular 8AM-5PM CST business hours. He will
-                        have several expert level developers under his supervision in our office located in Russia, but
-                        functioning on US standards.</p>
-                    <p class="corporate-color-dark">Since part of the work will be done here and another part on the
-                        other side of
-                        the planet, we provide faster development. We literally work around the clock.</p>
+
+                    <!--Grid row-->
+                    <div class="row">
+
+                        <!--Grid column-->
+                        <div class="col-lg-4 col-md-12 mb-r">
+
+                            <!--Pricing card-->
+                            <div class="card pricing-card">
+                                <!--Price-->
+                                <div class="price header blue">
+                                    <h1>$15/hr</h1>
+                                    <div class="version">
+                                        <h5>Junior</h5>
+                                    </div>
+                                </div>
+                                <!--Price-->
+
+                                <!--Features-->
+                                <div class="card-body striped">
+                                    <ul>
+                                        <li>
+                                            <p class="mt-1"><i class="fa fa-check"></i> 1-3 years of experience</p>
+                                        </li>
+                                        <li>
+                                            <p><i class="fa fa-check"></i> Basic coding only</p>
+                                        </li>
+                                        <li>
+                                            <p><i class="fa fa-times"></i> Content management</p>
+                                        </li>
+                                        <li>
+                                            <p><i class="fa fa-times"></i> Image processing</p>
+                                        </li>
+
+                                    </ul>
+
+                                    <a href="#get-in-touch" class="btn btn-blue">Hire</a>
+                                </div>
+                                <!--Features-->
+
+                            </div>
+                            <!--Pricing card-->
+
+                        </div>
+                        <!--Grid column-->
+
+                        <!--Grid column-->
+                        <div class="col-lg-4 col-md-6 mb-r">
+
+                            <!--Pricing card-->
+                            <div class="card pricing-card">
+                                <!--Price-->
+                                <div class="price header indigo">
+                                    <h1>$29/hr</h1>
+                                    <div class="version">
+                                        <h5>Mid-Level
+                                        </h5>
+                                    </div>
+                                </div>
+                                <!--Price-->
+
+                                <!--Features-->
+                                <div class="card-body striped">
+                                    <ul>
+                                        <li>
+                                            <p class="mt-1"><i class="fa fa-check"></i> 3-10 years of experience</p>
+                                        </li>
+                                        <li>
+                                            <p><i class="fa fa-check"></i> Good coding skills</p>
+                                        </li>
+                                        <li>
+                                            <p><i class="fa fa-check"></i>Good problem solving skills</p>
+                                        </li>
+                                        <li>
+                                            <p><i class="fa fa-times"></i> Average speed</p>
+                                        </li>
+
+                                    </ul>
+
+                                    <a href="#get-in-touch" class="btn btn-blue">Hire</a>
+                                </div>
+                                <!--Features-->
+
+                            </div>
+                            <!--Pricing card-->
+
+                        </div>
+                        <!--Grid column-->
+
+                        <!--Grid column-->
+                        <div class="col-lg-4 col-md-6 mb-r">
+                            <!--Pricing card-->
+                            <div class="card pricing-card">
+                                <!--Price-->
+                                <div class="price header deep-purple">
+                                    <h1>$45/hr</h1>
+                                    <div class="version">
+                                        <h5>Expert</h5>
+                                    </div>
+                                </div>
+                                <!--Price-->
+
+                                <!--Features-->
+                                <div class="card-body striped">
+                                    <ul>
+                                        <li>
+                                            <p class="mt-1"><i class="fa fa-check"></i> 10+ years of experience or PhD
+                                            </p>
+                                        </li>
+                                        <li>
+                                            <p><i class="fa fa-check"></i> Expert in coding</p>
+                                        </li>
+                                        <li>
+                                            <p><i class="fa fa-check"></i> Complex problem solving</p>
+                                        </li>
+                                        <li>
+                                            <p><i class="fa fa-check"></i> High speed</p>
+                                        </li>
+                                    </ul>
+                                    <a href="#get-in-touch" class="btn btn-blue">Hire</a>
+                                </div>
+                                <!--Features-->
+
+                            </div>
+                            <!--Pricing card-->
+                        </div>
+                        <!--Grid column-->
+
+                    </div>
+                    <!--Grid row-->
+
                 </div>
-                <!--Grid column-->
-
-                <!--Grid column-->
-                <div class="col-md-4 mb-r">
-                    <figure class="figure">
-                        <img src="img/png/muscle.png" class="figure-img img-fluid" alt="...">
-
-                    </figure>
-                    <h5 class="feature-title corporate-color-light font-bold">Lean muscle for your company</h5>
-                    <p class="corporate-color-dark">Our team of developers is small. Less than 20 people. We don't have
-                        investors,
-                        board, managers, agents or sales reps to bump up our prices. You can hire us for your project
-                        on-demand or extend your company on dedicated basis. Same as you would hire local people - just
-                        cheaper.</p>
-                    <p class="corporate-color-dark">Cheaper doesn't mean cheap. We don't have junior or even mid-level
-                        programmers
-                        and don't do cheap projects. Our guys are rare gems - best we could find in a 1.5 million
-                        population city of Ufa, Russia. Our specialty is complex stuff. We do it quickly and right.</p>
-                </div>
-                <!--Grid column-->
-
-                <!--Grid column-->
-                <div class="col-md-4 mb-r">
-                    <figure class="figure">
-                        <img src="img/png/nda.png" class="figure-img img-fluid" alt="...">
-
-                    </figure>
-                    <h5 class="feature-title corporate-color-light font-bold">Our Works</h5>
-                    <p class="corporate-color-dark">We are sorry, but all of our previous code is under NDA (we will
-                        sign one with
-                        you as well). All we could say is that since 2014 our team successfully providing development
-                        backend for <a href="https://www.bubbleup.net" target="_blank">www.bubbleup.net</a> - a Texas
-                        based agency developing and supporting hundreds of highly visible sites for world class brands
-                        and entertainers like: Jimmy Buffett, Luke Bryan, AeroSmith, ACDC, Celine Dion and others</p>
-                </div>
-                <!--Grid column-->
+                <!--Container Pricing-->
 
             </div>
-            <!--Grid row-->
+            <!--/.Panel 1-->
 
-            <!--Grid row-->
-            <!--2-->
-            <div class="row features-big">
+            <!--Panel 2-->
+            <div class="tab-pane fade in" id="panel12" role="tabpanel">
 
-                <!--Grid column-->
-                <div class="col-md-4 mb-r">
-                    <figure class="figure">
-                        <img src="img/png/quality.png" class="figure-img img-fluid" alt="...">
+                <!--\: Pricing v.1-->
+                <div class="container">
 
-                    </figure>
-                    <h5 class="feature-title corporate-color-light font-bold">Quality of Services</h5>
-                    <p class="corporate-color-dark">ProGeeks has a strong commitment to perfection of what we do. That
-                        is why we
-                        offer 2 months of free support support/bug fixing</p>
+
+                    <!--Grid row-->
+                    <div class="row">
+
+                        <!--Grid column-->
+                        <div class="col-lg-4 col-md-12 mb-r">
+
+                            <!--Pricing card-->
+                            <div class="card pricing-card">
+                                <!--Price-->
+                                <div class="price header blue">
+                                    <h1>$19/hr</h1>
+                                    <div class="version">
+                                        <h5>Junior</h5>
+                                    </div>
+                                </div>
+                                <!--Price-->
+
+                                <!--Features-->
+                                <div class="card-body striped">
+                                    <ul>
+                                        <li>
+                                            <p class="mt-1"><i class="fa fa-check"></i> 1-3 years of experience</p>
+                                        </li>
+                                        <li>
+                                            <p><i class="fa fa-check"></i> Basic coding only</p>
+                                        </li>
+                                        <li>
+                                            <p><i class="fa fa-times"></i> Content management</p>
+                                        </li>
+                                        <li>
+                                            <p><i class="fa fa-times"></i> Image processing</p>
+                                        </li>
+
+                                    </ul>
+
+                                    <button class="btn btn-blue">Buy now</button>
+                                </div>
+                                <!--Features-->
+
+                            </div>
+                            <!--Pricing card-->
+
+                        </div>
+                        <!--Grid column-->
+
+                        <!--Grid column-->
+                        <div class="col-lg-4 col-md-6 mb-r">
+
+                            <!--Pricing card-->
+                            <div class="card pricing-card">
+                                <!--Price-->
+                                <div class="price header indigo">
+                                    <h1>$39/hr</h1>
+                                    <div class="version">
+                                        <h5>Mid-Level
+                                        </h5>
+                                    </div>
+                                </div>
+                                <!--Price-->
+
+                                <!--Features-->
+                                <div class="card-body striped">
+                                    <ul>
+                                        <li>
+                                            <p class="mt-1"><i class="fa fa-check"></i> 3-10 years of experience</p>
+                                        </li>
+                                        <li>
+                                            <p><i class="fa fa-check"></i> Good coding skills</p>
+                                        </li>
+                                        <li>
+                                            <p><i class="fa fa-check"></i>Good problem solving skills</p>
+                                        </li>
+                                        <li>
+                                            <p><i class="fa fa-times"></i> Average speed</p>
+                                        </li>
+
+                                    </ul>
+
+                                    <button class="btn btn-indigo">Buy now</button>
+                                </div>
+                                <!--Features-->
+
+                            </div>
+                            <!--Pricing card-->
+
+                        </div>
+                        <!--Grid column-->
+
+                        <!--Grid column-->
+                        <div class="col-lg-4 col-md-6 mb-r">
+                            <!--Pricing card-->
+                            <div class="card pricing-card">
+                                <!--Price-->
+                                <div class="price header deep-purple">
+                                    <h1>$59/hr</h1>
+                                    <div class="version">
+                                        <h5>Expert</h5>
+                                    </div>
+                                </div>
+                                <!--Price-->
+
+                                <!--Features-->
+                                <div class="card-body striped">
+                                    <ul>
+                                        <li>
+                                            <p class="mt-1"><i class="fa fa-check"></i> 10+ years of experience or PhD
+                                            </p>
+                                        </li>
+                                        <li>
+                                            <p><i class="fa fa-check"></i> Expert in coding</p>
+                                        </li>
+                                        <li>
+                                            <p><i class="fa fa-check"></i> Complex problem solving</p>
+                                        </li>
+                                        <li>
+                                            <p><i class="fa fa-check"></i> High speed</p>
+                                        </li>
+                                    </ul>
+                                    <button class="btn btn-deep-purple">Buy now</button>
+                                </div>
+                                <!--Features-->
+
+                            </div>
+                            <!--Pricing card-->
+                        </div>
+                        <!--Grid column-->
+
+                    </div>
+                    <!--Grid row-->
+
                 </div>
-                <!--Grid column-->
-
-                <!--Grid column-->
-                <div class="col-md-4 mb-r">
-                    <figure class="figure">
-                        <img src="img/png/reliability.png" class="figure-img img-fluid" alt="...">
-
-                    </figure>
-                    <h5 class="feature-title corporate-color-light font-bold">Reliability</h5>
-                    <p class="corporate-color-dark">Our team is always true to our word. We never miss deadlines and
-                        give promises
-                        we can not keep</p>
-                </div>
-                <!--Grid column-->
-
-                <!--Grid column-->
-                <div class="col-md-4 mb-r">
-                    <figure class="figure">
-                        <img src="img/png/cost.png" class="figure-img img-fluid" alt="...">
-
-                    </figure>
-                    <h5 class="feature-title corporate-color-light font-bold">Cost Optimization</h5>
-                    <p class="corporate-color-dark">Save up to 50% on your IT Software Development Stuffing. Forget
-                        about
-                        recruitment, administrative and management costs</p>
-                </div>
-                <!--Grid column-->
+                <!--Container Pricing-->
 
             </div>
-            <!--Grid row-->
-
-            <!--Grid row-->
-            <!--3-->
-            <div class="row features-big">
-                <!--Grid column-->
-                <div class="col-md-4 mb-r">
-                    <figure class="figure">
-                        <img src="img/png/customer.png" class="figure-img img-fluid" alt="...">
-
-                    </figure>
-                    <h5 class="feature-title corporate-color-light font-bold">Communication<br> and Customer Support
-                    </h5>
-                    <p class="corporate-color-dark">ProGeeks has the right outsourcing culture and attitude. And we use
-                        the best tools for tracking and reporting progress</p>
-                </div>
-                <!--Grid column-->
-
-                <!--Grid column-->
-                <div class="col-md-4 mb-r">
-                    <figure class="figure">
-                        <img src="img/png/task.png" class="figure-img img-fluid" alt="...">
-
-                    </figure>
-                    <h5 class="feature-title corporate-color-light font-bold">Task and Time Management
-                    </h5>
-                    <p class="corporate-color-dark">We use Google Drive for collaboration and transparent task and time
-                        management. You will see what is going on in real time. You will review and provide feedback, so
-                        we can adjust and conform to agile development process</p>
-                </div>
-                <!--Grid column-->
+            <!--/.Panel 2-->
 
 
-            </div>
-            <!--Grid row-->
-        </section>
-        <!--Section: Whyus-->
-    </div>
-
+        </div>
+    </section>
 
 
     <div class="quote-section streak streak-photo streak-md ">
@@ -294,24 +507,31 @@
                          style="background-color:rgba(253, 253, 253, 0.82); ">
                         <div class="media mb-1">
                             <!--<a class="media-left waves-light">-->
-                                <img class="rounded-circle   media-left d-flex align-self-baseline" src="img/team/vadim.jpeg" width="150" height="150" alt="Generic placeholder image">
+                            <img class="rounded-circle   media-left d-flex align-self-baseline"
+                                 src="img/team/vadim.jpeg" width="150" height="150" alt="Generic placeholder image">
                             <!--</a>-->
                             <div class="media-body">
 
                                 <!--<p><h4 class="h4-responsive mb-5"><i class="fa fa-quote-left corporate-color-dark"-->
-                                                                     <!--aria-hidden="true"></i><br> <br>Progeeks is the-->
+                                <!--aria-hidden="true"></i><br> <br>Progeeks is the-->
                                 <!--best solution for what we’re looking for - -->
                                 <!--a really talented and great team to work with </h4>-->
                                 <!--<h6 class="text-right font-italic wow fadeIn">~ Coleman Sisson-->
-                                    <!--chairman,<span class="corporate-color-dark">BubbleUp, Ltd.</span></h6></p>-->
-
+                                <!--chairman,<span class="corporate-color-dark">BubbleUp, Ltd.</span></h6></p>-->
 
 
                                 <blockquote class="blockquote">
 
-                                Since 2014 we use ProGeeks to extend our development team with offshore resources. They always exceed the expectations, provide code quality to match SSAE, PCI and HIPPA compliance requirements, deliver on time and communicate with us in decent english during US Central business hours. I feel like I have their team next door.
-                                    <footer class="blockquote-footer mt-3">Vadim Fatkullin - Vice President of Technology
-                                        <cite><a href="https://www.bubbleup.net">BubbleUp, LLC</a> - a Texas based agency developing and supporting hundreds of highly visible sites for world class brands and entertainers like: Jimmy Buffett, Luke Bryan, AeroSmith, ACDC, Celine Dion and more.</cite></footer>
+                                    Since 2014 we use ProGeeks to extend our development team with offshore resources.
+                                    They always exceed the expectations, provide code quality to match SSAE, PCI and
+                                    HIPPA compliance requirements, deliver on time and communicate with us in decent
+                                    english during US Central business hours. I feel like I have their team next door.
+                                    <footer class="blockquote-footer mt-3">Vadim Fatkullin - Vice President of
+                                        Technology
+                                        <cite><a href="https://www.bubbleup.net">BubbleUp, LLC</a> - a Texas based
+                                            agency developing and supporting hundreds of highly visible sites for world
+                                            class brands and entertainers like: Jimmy Buffett, Luke Bryan, AeroSmith,
+                                            ACDC, Celine Dion and more.</cite></footer>
                                     <blockquote class="blockquote">
 
                             </div>
@@ -322,85 +542,192 @@
         </div>
     </div>
 
+    <!--Section: Whyus-->
+    <section class="text-center wow fadeIn section feature-box" data-wow-delay="0.2s" id="whyus">
+        <div class="container">
+            <div class="divider-new pt-5">
+                <h2 class="h2-responsive wow fadeIn" data-wow-delay="0.2s">Why us</h2>
+            </div>
 
-    <div class="container js-nav-container" id="what-we-do">
-        <div class="divider-new pt-5">
-            <h2 class="h2-responsive wow fadeIn corporate-color-dark" data-wow-delay="0.2s">What we do</h2>
-        </div>
-        <!--Section: Whyus-->
-        <section class="text-center wow fadeIn section feature-box corporate-color-dark" data-wow-delay="0.2s">
-
-            <p class="mb-5">Here is the list of our specialties and technologies we are working with</p>
 
             <!--Grid row-->
             <!--1-->
             <div class="row features-big">
-                <!--Grid column-->
-                <div class="col-md-4 mb-r">
-                    <figure class="figure">
-                        <img src="img/png/backend.png" class="figure-img img-fluid" alt="...">
-                    </figure>
-                    <h5 class="feature-title corporate-color-light font-bold">Backend Web Development</h5>
-                    <p class="corporate-color-dark">We use PHP based Yii2 framework extended with our own modules. It's
-                        like a set of compatible bricks to build custom projects of any level of complexity
-                        efficiently.</p>
-                </div>
 
                 <!--Grid column-->
-                <div class="col-md-4 mb-r">
+                <div class="col-md-4 col-sm-6 col-12 mb-r">
+
                     <figure class="figure">
-                        <img src="img/png/frontend.png" class="figure-img img-fluid" alt="...">
+                        <i class="fa fa-money" aria-hidden="true"></i>
+
                     </figure>
-                    <h5 class="feature-title corporate-color-light font-bold">Frontend Web Development</h5>
-                    <p class="corporate-color-dark">We use Bootstrap to build responsive interfaces that work well on
-                        desktop and mobile devices. We use Javascript, jQuery and AngularJS to make those interfaces
-                        slick</p>
+
+                    <h3 class="feature-title corporate-color-light font-bold">Low Cost</h3>
+                    <p class="corporate-color-dark">ProGeeks staff at the end is 2-3 times cheaper compared to hiring
+                        local employees. See our <a href="#pricing">pricing chart</a>.
+                    </p>
                 </div>
+                <!--Grid column-->
 
                 <!--Grid column-->
-                <div class="col-md-4 mb-r">
+                <div class="col-md-4 col-sm-6 col-12 mb-r">
                     <figure class="figure">
-                        <img src="img/png/security.png" class="figure-img img-fluid" alt="...">
+                        <img src="img/svg/around-clock.svg" class="figure-img img-fluid" alt="...">
+
                     </figure>
-                    <h5 class="feature-title corporate-color-light font-bold">Web Security</h5>
-                    <p class="corporate-color-dark">Our code is hacker proof and we can protect your existing projects
-                        from hacks. ProGeeks works in accordance to HIPPA and other compliance standards</p>
+                    <h3 class="feature-title corporate-color-light font-bold">Easy Communication</h3>
+                    <p class="corporate-color-dark">ProGeeks staff speak english and available for communication on
+                        email or messenger up to noon or at late evenings US time. Emergency contact is available
+                        24/7</p>
                 </div>
+                <!--Grid column-->
+
+                <!--Grid column-->
+                <div class="col-md-4 col-sm-6 col-12 mb-r">
+                    <figure class="figure">
+                        <img src="img/svg/nda.svg" class="figure-img img-fluid" alt="...">
+
+                    </figure>
+                    <h3 class="feature-title corporate-color-light font-bold">Under US Law and NDA</h3>
+                    <p class="corporate-color-dark">ProGeeks staff is in Ufa, Russia, but ProGeeks, LLC is a US company
+                        with headquarters in Texas, account at Bank of America and functioning on US standards. Your
+                        secrets are safe.</p>
+                </div>
+                <!--Grid column-->
+
             </div>
+            <!--Grid row-->
+
             <!--Grid row-->
             <!--2-->
             <div class="row features-big">
-                <!--Grid column-->
-                <div class="col-md-4 mb-r">
-                    <figure class="figure">
-                        <img src="img/png/cloud.png" class="figure-img img-fluid" alt="...">
-                    </figure>
-                    <h5 class="feature-title corporate-color-light font-bold">Cloud Infrastructure</h5>
-                    <p class="corporate-color-dark">Our team setup and manage complex and failproof server
-                        infrastructure systems using Amazon Web Services cloud.</p>
-                </div>
 
                 <!--Grid column-->
-                <div class="col-md-4 mb-r">
+                <div class="col-md-4 col-sm-6 col-12 mb-r">
                     <figure class="figure">
-                        <img src="img/png/design.png" class="figure-img img-fluid" alt="...">
+                        <i class="fa fa-search" aria-hidden="true"></i>
+
                     </figure>
-                    <h5 class="feature-title corporate-color-light font-bold">Designs</h5>
-                    <p class="corporate-color-dark">We are geeks. In house we build nice UX, functional UI and program
-                        cool stuff.</p>
+                    <h3 class="feature-title corporate-color-light font-bold">Work Transparency</h3>
+                    <p class="corporate-color-dark">ProGeeks will share with you Google Drive spreadsheets our staff is
+                        using with tasks queue, progress and comments on the problems and daily timecard reports, so you
+                        see what is going on in realtime.</p>
                 </div>
+                <!--Grid column-->
+
+                <!--Grid column-->
+                <div class="col-md-4 col-sm-6 col-12 mb-r">
+                    <figure class="figure">
+                        <i class="fa fa-cogs" aria-hidden="true"></i>
+
+                    </figure>
+                    <h3 class="feature-title corporate-color-light font-bold">Any Complexity</h3>
+                    <p class="corporate-color-dark">We have real experts on board. Our solution architects can think
+                        through the whole project for you and task our developers to build applications and systems of
+                        very high level of complexity.</p>
+                </div>
+                <!--Grid column-->
+
+                <!--Grid column-->
+                <div class="col-md-4 col-sm-6 col-12 mb-r">
+                    <figure class="figure">
+                        <i class="fa fa-lightbulb-o" aria-hidden="true"></i>
+
+                    </figure>
+                    <h3 class="feature-title corporate-color-light font-bold">Latest Tech</h3>
+                    <p class="corporate-color-dark">ProGeeks follows all the latest trends in web/app development world.
+                        We use same frameworks, standards and best practices as silicon valley companies, just cost you
+                        less.</p>
+                </div>
+                <!--Grid column-->
 
             </div>
-    </div>
+            <!--Grid row-->
+        </div>
+        <!--Container-->
+    </section>
+    <!--Section: Whyus-->
+
+    <!--<div class="container js-nav-container" id="what-we-do-old">-->
+    <!--<div class="divider-new pt-5">-->
+    <!--<h2 class="h2-responsive wow fadeIn corporate-color-dark" data-wow-delay="0.2s">What we do</h2>-->
+    <!--</div>-->
+    <!--&lt;!&ndash;Section: Whyus&ndash;&gt;-->
+    <!--<section class="text-center wow fadeIn section feature-box corporate-color-dark" data-wow-delay="0.2s">-->
+
+    <!--<p class="mb-5">Here is the list of our specialties and technologies we are working with</p>-->
+
+    <!--&lt;!&ndash;Grid row&ndash;&gt;-->
+    <!--&lt;!&ndash;1&ndash;&gt;-->
+    <!--<div class="row features-big">-->
+    <!--&lt;!&ndash;Grid column&ndash;&gt;-->
+    <!--<div class="col-md-4 mb-r">-->
+    <!--<figure class="figure">-->
+    <!--<img src="img/png/backend.png" class="figure-img img-fluid" alt="...">-->
+    <!--</figure>-->
+    <!--<h5 class="feature-title corporate-color-light font-bold">Backend Web Development</h5>-->
+    <!--<p class="corporate-color-dark">We use PHP based Yii2 framework extended with our own modules. It's-->
+    <!--like a set of compatible bricks to build custom projects of any level of complexity-->
+    <!--efficiently.</p>-->
+    <!--</div>-->
+
+    <!--&lt;!&ndash;Grid column&ndash;&gt;-->
+    <!--<div class="col-md-4 mb-r">-->
+    <!--<figure class="figure">-->
+    <!--<img src="img/png/frontend.png" class="figure-img img-fluid" alt="...">-->
+    <!--</figure>-->
+    <!--<h5 class="feature-title corporate-color-light font-bold">Frontend Web Development</h5>-->
+    <!--<p class="corporate-color-dark">We use Bootstrap to build responsive interfaces that work well on-->
+    <!--desktop and mobile devices. We use Javascript, jQuery and AngularJS to make those interfaces-->
+    <!--slick</p>-->
+    <!--</div>-->
+
+    <!--&lt;!&ndash;Grid column&ndash;&gt;-->
+    <!--<div class="col-md-4 mb-r">-->
+    <!--<figure class="figure">-->
+    <!--<img src="img/png/security.png" class="figure-img img-fluid" alt="...">-->
+    <!--</figure>-->
+    <!--<h5 class="feature-title corporate-color-light font-bold">Web Security</h5>-->
+    <!--<p class="corporate-color-dark">Our code is hacker proof and we can protect your existing projects-->
+    <!--from hacks. ProGeeks works in accordance to HIPPA and other compliance standards</p>-->
+    <!--</div>-->
+    <!--</div>-->
+    <!--&lt;!&ndash;Grid row&ndash;&gt;-->
+    <!--&lt;!&ndash;2&ndash;&gt;-->
+    <!--<div class="row features-big">-->
+    <!--&lt;!&ndash;Grid column&ndash;&gt;-->
+    <!--<div class="col-md-4 mb-r">-->
+    <!--<figure class="figure">-->
+    <!--<img src="img/png/cloud.png" class="figure-img img-fluid" alt="...">-->
+    <!--</figure>-->
+    <!--<h5 class="feature-title corporate-color-light font-bold">Cloud Infrastructure</h5>-->
+    <!--<p class="corporate-color-dark">Our team setup and manage complex and failproof server-->
+    <!--infrastructure systems using Amazon Web Services cloud.</p>-->
+    <!--</div>-->
+
+    <!--&lt;!&ndash;Grid column&ndash;&gt;-->
+    <!--<div class="col-md-4 mb-r">-->
+    <!--<figure class="figure">-->
+    <!--<img src="img/png/design.png" class="figure-img img-fluid" alt="...">-->
+    <!--</figure>-->
+    <!--<h5 class="feature-title corporate-color-light font-bold">Designs</h5>-->
+    <!--<p class="corporate-color-dark">We are geeks. In house we build nice UX, functional UI and program-->
+    <!--cool stuff.</p>-->
+    <!--</div>-->
+
+    <!--</div>-->
+    <!--</div>-->
 
 
     <!--Our Team-->
-    <div class="container js-nav-container" id="our-team">
-        <div class="divider-new pt-5">
-            <h2 class="h2-responsive wow fadeIn corporate-color-dark" data-wow-delay="0.2s">Who we are</h2>
-        </div>
-        <!--Section: Testimonials v.1-->
-        <section class="section pb-3 text-center">
+    <section class="section pb-3 text-center" id="our-team">
+        <div class="container ">
+            <div class="divider-new pt-5">
+                <h2 class="h2-responsive wow fadeIn corporate-color-dark text-uppercase" data-wow-delay="0.2s">Who we
+                    are</h2>
+            </div>
+            <!--Section: Testimonials v.1-->
+
 
             <!--Section heading-->
 
@@ -410,34 +737,7 @@
 
             <div class="row">
 
-                <!--Grid column-->
-                <!--<div class="col-lg-4 col-md-12 mb-r">-->
 
-                    <!--&lt;!&ndash;Card&ndash;&gt;-->
-                    <!--<div class="card testimonial-card">-->
-
-                        <!--&lt;!&ndash;Background color&ndash;&gt;-->
-                        <!--<div class="card-up blue lighten-2">-->
-                        <!--</div>-->
-
-                        <!--&lt;!&ndash;Avatar&ndash;&gt;-->
-                        <!--<div class="avatar"><img src="img/team/vadim.jpeg"-->
-                                                 <!--class="rounded-circle img-responsive">-->
-                        <!--</div>-->
-
-                        <!--<div class="card-body">-->
-                            <!--&lt;!&ndash;Name&ndash;&gt;-->
-                            <!--<h5 class="card-title mt-1">Vadim Fatkullin</h5>-->
-                            <!--<h6 class="mb-3 grey-text">Chairman & CEO</h6>-->
-
-                        <!--</div>-->
-
-                    <!--</div>-->
-                    <!--&lt;!&ndash;Card&ndash;&gt;-->
-
-                <!--</div>-->
-                <!--Grid column-->
-                <!--Grid column-->
                 <div class="col-lg-4 col-md-12 mb-r">
                     <!--Card-->
                     <div class="card testimonial-card">
@@ -445,13 +745,13 @@
                         <div class="card-up blue lighten-2">
                         </div>
                         <!--Avatar-->
-                        <div class="avatar"><img src="img/team/leyla.jpeg"
-                                                 class="rounded-circle img-responsive">
+                        <div class="avatar mt-4"><img src="img/team/leyla.jpeg"
+                                                      class="rounded-circle img-responsive">
                         </div>
                         <div class="card-body">
                             <!--Name-->
                             <h5 class="card-title mt-1">Leyla Ismagilova</h5>
-                            <h6 class="mb-3 grey-text">VP Operations</h6>
+                            <h6 class="mb-3 grey-text">COO</h6>
 
                         </div>
                     </div>
@@ -467,14 +767,14 @@
                         </div>
 
                         <!--Avatar-->
-                        <div class="avatar"><img src="img/team/anton-merkulov.jpg"
-                                                 class="rounded-circle img-responsive">
+                        <div class="avatar mt-4"><img src="img/team/anton-merkulov.jpg"
+                                                      class="rounded-circle img-responsive">
                         </div>
 
                         <div class="card-body">
                             <!--Name-->
                             <h5 class="card-title mt-1">Anton Merkulov</h5>
-                            <h6 class="mb-3 grey-text">Sales&Marketing Advisor</h6>
+                            <h6 class="mb-3 grey-text">Marketing Advisor</h6>
 
                         </div>
                     </div>
@@ -492,8 +792,8 @@
                         </div>
 
                         <!--Avatar-->
-                        <div class="avatar"><img src="img/team/azamat.jpeg"
-                                                 class="rounded-circle img-responsive">
+                        <div class="avatar mt-4"><img src="img/team/azamat.jpeg"
+                                                      class="rounded-circle img-responsive">
                         </div>
 
                         <div class="card-body">
@@ -524,8 +824,8 @@
                         <div class="card-up blue lighten-2">
                         </div>
                         <!--Avatar-->
-                        <div class="avatar "><img src="img/team/dimaa.jpeg"
-                                                  class="rounded-circle img-responsive ">
+                        <div class="avatar mt-4"><img src="img/team/dimaa.jpeg"
+                                                      class="rounded-circle img-responsive ">
                         </div>
                         <div class="card-body">
                             <!--Name-->
@@ -546,8 +846,8 @@
                         </div>
 
                         <!--Avatar-->
-                        <div class="avatar"><img src="img/team/dimat.jpeg"
-                                                 class="rounded-circle img-responsive">
+                        <div class="avatar mt-4"><img src="img/team/dimat.jpeg"
+                                                      class="rounded-circle img-responsive">
                         </div>
 
                         <div class="card-body">
@@ -572,8 +872,8 @@
                         </div>
 
                         <!--Avatar-->
-                        <div class="avatar"><img src="img/team/anton.jpeg"
-                                                 class="rounded-circle img-responsive">
+                        <div class="avatar mt-4"><img src="img/team/anton.jpeg"
+                                                      class="rounded-circle img-responsive">
                         </div>
 
                         <div class="card-body">
@@ -604,8 +904,8 @@
                         <div class="card-up blue lighten-2">
                         </div>
                         <!--Avatar-->
-                        <div class="avatar "><img src="img/team/rustem.jpeg"
-                                                  class="rounded-circle img-responsive ">
+                        <div class="avatar mt-4"><img src="img/team/rustem.jpeg"
+                                                      class="rounded-circle img-responsive ">
                         </div>
                         <div class="card-body">
                             <!--Name-->
@@ -626,8 +926,8 @@
                         </div>
 
                         <!--Avatar-->
-                        <div class="avatar"><img src="img/team/rishat.jpeg"
-                                                 class="rounded-circle img-responsive">
+                        <div class="avatar mt-4"><img src="img/team/rishat.jpeg"
+                                                      class="rounded-circle img-responsive">
                         </div>
 
                         <div class="card-body">
@@ -640,63 +940,58 @@
                     <!--Card-->
                 </div>
                 <!--Grid column-->
+
+
+                <!--Grid column-->
+                <div class="col-lg-4 col-md-12 mb-r">
+                    <!--Card-->
+                    <div class="card testimonial-card">
+                        <!--Background color-->
+                        <div class="card-up blue lighten-2">
+                        </div>
+
+                        <!--Avatar-->
+                        <div class="avatar mt-4"><img src="img/team/naumov.jpeg"
+                                                      class="rounded-circle img-responsive">
+                        </div>
+
+                        <div class="card-body">
+                            <!--Name-->
+                            <h5 class="card-title mt-1">Dmitry Naumov</h5>
+                            <h6 class="mb-3 grey-text">Developer</h6>
+
+                        </div>
+                    </div>
+                    <!--Card-->
+                </div>
+                <!--Grid column-->
+
             </div>
             <!--Grid row-->
 
-        </section>
-        <!--Section: Our Team-->
-    </div>
 
+            <!--Section: Our Team-->
+        </div>
+    </section>
 
     <!--Get in touch -->
-    <div class="container js-nav-container" id="get-in-touch">
-        <div class="divider-new pt-5">
-            <h2 class="h2-responsive wow fadeIn corporate-color-dark" data-wow-delay="0.2s">Get in touch</h2>
-        </div>
-        <!--Section: Testimonials v.1-->
-        <section class="section pb-3 ">
+    <section class="section pb-3 " id="get-in-touch">
+        <div class="container ">
+            <div class="divider-new pt-5">
+                <h2 class="h2-responsive wow fadeIn text-uppercase corporate-color-dark" data-wow-delay="0.2s">Get in
+                    touch</h2>
+            </div>
+            <!--Section: Testimonials v.1-->
+
             <!-- Form contact -->
 
             <div class="row">
                 <div class="col-lg-12   mb-r">
                     <div class="container">
-                        <!--<p class="h5 text-left mb-4 corporate-color-light">Dedicated option</p>-->
-                        <!--<p class="text-left corporate-color-dark">Tell us what type of developers you need or tell us-->
-                        <!--about your project, so-->
-                        <!--we suggest you the right people. You will pay them monthly and they will be available just-->
-                        <!--for your projects full time. Our lead developer will help you to manage these people and-->
-                        <!--tasks for them. You pay only actual development hours. All vacations, sick days or-->
-                        <!--administrative time is not your problem. Your people will report time every day to the-->
-                        <!--Google Drive sheet or task management platform of your choice.</p>-->
-
-                        <!--<p class="h5 text-left mb-4 corporate-color-light">On-demand option</p>-->
-                        <!--<p class="text-left corporate-color-dark">Tell us about your project. Lead developer will reply-->
-                        <!--within 24 hours to-->
-                        <!--discuss details. Once all is clear we will get you wireframes for interfaces and-->
-                        <!--comprehensive list of features and modules under the hood together with our suggestions and-->
-                        <!--Good Faith Estimate on hours for development. Together we will adjust a list of tasks and-->
-                        <!--sign a contract. Then you will pay 25% upfront and we will start development.</p>-->
-
-                        <!--<p class="text-left corporate-color-dark"> Every week lead developer will report what has been-->
-                        <!--done, you will review-->
-                        <!--and provide feedback, so we can adjust and conform to agile development process. Every month-->
-                        <!--you will be receiving invoices from us until another 50% is paid. Once work is done you will-->
-                        <!--make a final review and if all is good pay the rest 25%, so we release the project and push-->
-                        <!--it to production. Then we would be happy to move to next phase or sign an ongoing-->
-                        <!--maintenance agreement with you.</p>-->
-
-                        <p class="text-left corporate-color-dark">Due to rapidly evolving nature of of modern business,
-                            the demand for IT resources can fluctuate dramatically. That is why ProGeeks offers flexile
-                            hiring options to match your requirements. A Dedicated Team of Web Developers with a proper
-                            skill set focuses only on your particular project.</p>
-                        <p class="text-left corporate-color-dark">Alternatively we have On Demand Developers to provide
-                            assistance with specific modules and other development related tasks.</p>
                         <p class="text-left corporate-color-dark">Fill in the form below so we can learn more about your
                             needs and find the best solution just for your business.</p>
                     </div>
                     <form id="ajax-contact">
-
-
                         <div class="container">
                             <div class="row">
                                 <div class="  col-lg-6 col-md-12">
@@ -729,27 +1024,6 @@
                         </div>
                     </form>
 
-                    <!--<form id="ajax-contact" method="post" action="mail.php">-->
-                    <!--<div class="container">-->
-                    <!--<div class="row">-->
-                    <!--<div class="field col-lg-6 col-md-12 first">-->
-                    <!--<label for="name">Name</label>-->
-                    <!--<input type="text" name="name" id="name">-->
-                    <!--</div>-->
-                    <!--<div class="field col-lg-6 col-md-12">-->
-                    <!--<label for="email">Email</label>-->
-                    <!--<input type="text" name="email" id="email">-->
-                    <!--</div>-->
-                    <!--</div>-->
-                    <!--<div class="field">-->
-                    <!--<label for="message">Message</label>-->
-                    <!--<textarea name="message" id="message" rows="5"></textarea>-->
-                    <!--</div>-->
-                    <!--<ul class="actions">-->
-                    <!--<li><a href="" class="button submit">Send Message</a></li>-->
-                    <!--</ul>-->
-                    <!--</div>-->
-                    <!--</form>-->
 
                 </div>
             </div>
@@ -813,58 +1087,12 @@
                 </div>
             </div>
 
+        </div>
+    </section>
 
-        </section>
-    </div>
     <!--Get in touch -->
 </main>
 
-<footer class="page-footer center-on-small-only mdb-color  lighten-5 pt-0 ">
-
-
-    <!--Copyright-->
-    <div class="footer-copyright text-left">
-        <!--<div class="container   ">-->
-        <!--<div class="row pt-5 ">-->
-        <!--<div class="col">-->
-        <!--<img src="img/png/logo_blue_light.png" height="40" class="d-inline-block align-top" alt="">-->
-        <!--</div>-->
-        <!--</div>-->
-        <!--<div class="row">-->
-        <!--<div class="col corporate-color-light">-->
-        <!--© ProGeeks, LLC 2017-->
-        <!--</div>-->
-
-        <!--</div>-->
-        <!--</div>-->
-        <div class="container">
-            <div class="d-flex flex-row">
-                <div class="d-flex  ">
-                    <div class="d-flex align-items-start flex-column">
-                        <div class=" corporate-color-light p-2 mt-4">
-                            <img src="img/png/logo_blue_light.png" height="40"
-                                                     class="d-block align-top" alt="">
-                        <span class="pt-0 d-block">© ProGeeks, LLC 2017</span>
-                        </div>
-
-                    </div>
-                </div>
-                <div class="d-flex ml-auto flex-column ">
-                    <span class=" d-block ml-auto px-2  corporate-color-light mt-4"><i class="fa fa-envelope-o"
-                                                                            aria-hidden="true"></i>
-                        info@progeeks.us
-                    </span>
-                    <span class="ml-auto px-2 d-block  corporate-color-light  "><i class="fa fa-phone" aria-hidden="true"></i>
-                        +1-202-555-0144
-                    </span>
-                </div>
-            </div>
-        </div>
-    </div>
-
-    <!--/.Copyright-->
-
-</footer>
 
 <!-- SCRIPTS -->
 <!-- JQuery -->
@@ -880,6 +1108,12 @@
 
 <script>
     jQuery(function ($) {
+
+        $('#pricing a.nav-link').click(function (e) {
+            e.preventDefault()
+            $(this).tab('show')
+        })
+
         $('.nav-item:not(.not-activable) ').click(function (e) {
             $('.nav-item ').removeClass('active');
             $(this).addClass('active');
@@ -902,8 +1136,8 @@
 
     });
 
-    
-//$('body').scrollspy({ target: '#navbarSupportedContent' })
+
+    //$('body').scrollspy({ target: '#navbarSupportedContent' })
 
 </script>
 
