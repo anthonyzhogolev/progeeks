@@ -140,16 +140,20 @@ footer.page-footer .footer-copyright {
 .media .media-left img {
     box-shadow: none;
 }
+
+.blockquote {
+    font-size: 1rem;
+}
 @media (max-width: 740px) {
 
 
-    .top-social-icons {
+    .top-nav-icon-container {
         font-size: 16px;
     }
 }
 
 
 
-    .top-social-icons {
+    .top-nav-icon-container{
         font-size: 20px;
     }
