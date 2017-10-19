@@ -37,6 +37,10 @@
     color: #3399cc !important;
 }
 
+.corporate-bg-color-light{
+    background-color: #3399cc !important;
+}
+
 .navbar {
     background-color: transparent;
 }
@@ -161,3 +165,4 @@ footer.page-footer .footer-copyright {
 .feature-icon {
     font-size: 3rem;
 }
+
