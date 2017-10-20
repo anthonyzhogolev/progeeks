@@ -200,8 +200,8 @@ footer.page-footer .footer-copyright {
 }
 
 #navbar-top  {
-    -webkit-transition: height 1s ease-out 0.5s;
-    -moz-transition: height 1s ease-out 0.5s;
-    -o-transition: height 1s ease-out 0.5s;
-    transition: height 1s ease-out 0.5s;
+    -webkit-transition:   1s ease-out 0.5s;
+    -moz-transition:   1s ease-out 0.5s;
+    -o-transition:   1s ease-out 0.5s;
+    transition:   1s ease-out 0.5s;
 }
