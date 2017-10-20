@@ -37,10 +37,11 @@
     color: #3399cc !important;
 }
 
-.corporate-bg-color-light{
+.corporate-bg-color-light {
     background-color: #3399cc !important;
 }
-.corporate-bg-color-dark{
+
+.corporate-bg-color-dark {
     background-color: #003366 !important;
 }
 
@@ -162,46 +163,85 @@ footer.page-footer .footer-copyright {
 }
 
 #what-we-do .figure-img {
-        width: 50px;
+    width: 50px;
 }
 
 .feature-icon {
     font-size: 3rem;
 }
 
-#pricing .nav-tabs .nav-item.show .nav-link,#pricing  .nav-tabs .nav-link.active {
+#pricing .nav-tabs .nav-item.show .nav-link, #pricing .nav-tabs .nav-link.active {
     color: #495057;
     background-color: rgba(255, 255, 255, 0.31);
     border: none;
     border-radius: 1%;
 }
 
-#pricing .nav-tabs   .nav-link:hover{
-    border: none    ;
+#pricing .nav-tabs .nav-link:hover {
+    border: none;
 }
 
-.pricing-junior-bg-color{
+.pricing-junior-bg-color {
     background-color: #4f98c7;
 }
 
-.pricing-mid-bg-color{
-      background-color: #1a6294;
-  }
+.pricing-mid-bg-color {
+    background-color: #1a6294;
+}
 
-.pricing-expert-bg-color{
+.pricing-expert-bg-color {
     background-color: #01406b;
 }
 
-.logo-img {
-    -webkit-transition: height 1s ease-out 0.5s;
-    -moz-transition: height 1s ease-out 0.5s;
-    -o-transition: height 1s ease-out 0.5s;
-    transition: height 1s ease-out 0.5s;
+.logo-img, #navbar-top {
+    -webkit-transition: height 0.5s ease-out 0.1s;
+    -moz-transition: height 0.5s ease-out 0.1s;
+    -o-transition: height 0.5s ease-out 0.1s;
+    transition: height 0.5s ease-out 0.1s;
 }
 
-#navbar-top  {
-    -webkit-transition:   1s ease-out 0.5s;
-    -moz-transition:   1s ease-out 0.5s;
-    -o-transition:   1s ease-out 0.5s;
-    transition:   1s ease-out 0.5s;
+#navbar-top {
+    navbar-top: 4.3rem;
+
+}
+
+section {
+    background-color: white;
+}
+
+body {
+    background-color: white;
+}
+
+/*video.video-parallax {*/
+    /*position: fixed !important;*/
+    /*top: 0;*/
+    /*left: 0;*/
+    /*width: 100%;*/
+    /*height: 50%;*/
+/*}*/
+
+@media (min-width: 768px) {
+    #navbar-top .navbar-nav > li > a:after {
+        content: "";
+        display: block;
+        position: absolute;
+        bottom: 0;
+        left: 50%;
+        -webkit-transform: translate(-50%, 0);
+        -ms-transform: translate(-50%, 0);
+        -o-transform: translate(-50%, 0);
+        transform: translate(-50%, 0);
+        height: .15rem;
+        width: 0;
+
+        background: #01406b;
+        -webkit-transition: width 0.1s ease-in-out;
+        -o-transition: width 0.1s ease-in-out;
+        transition: width 0.1s ease-in-out;
+    }
+
+    #navbar-top .navbar-nav > li > a:hover:after{
+        width: 100%;
+    }
 }
