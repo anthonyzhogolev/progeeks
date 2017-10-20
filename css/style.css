@@ -191,3 +191,17 @@ footer.page-footer .footer-copyright {
 .pricing-expert-bg-color{
     background-color: #01406b;
 }
+
+.logo-img {
+    -webkit-transition: height 1s ease-out 0.5s;
+    -moz-transition: height 1s ease-out 0.5s;
+    -o-transition: height 1s ease-out 0.5s;
+    transition: height 1s ease-out 0.5s;
+}
+
+#navbar-top  {
+    -webkit-transition: height 1s ease-out 0.5s;
+    -moz-transition: height 1s ease-out 0.5s;
+    -o-transition: height 1s ease-out 0.5s;
+    transition: height 1s ease-out 0.5s;
+}
