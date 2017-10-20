@@ -23,13 +23,13 @@
     </style>
 </head>
 
-<body>
+<body data-spy="scroll" data-target=".navbar-nav" data-offset="50">
 
 <header class="scroll-box">
 
     <!--Navbar-->
     <nav id="navbar-top"
-         class="navbar navbar-expand-lg navbar-light  fixed-top  scrolling-navbar">
+         class="navbar  navbar-expand-lg navbar-light  fixed-top  scrolling-navbar animated">
         <div class="container">
             <a class="mr-auto" href="#">
                 <img src="img/svg/logo.svg" height="40" class="d-inline-block  " alt="">
@@ -237,7 +237,7 @@
                             <!--Pricing card-->
                             <div class="card pricing-card">
                                 <!--Price-->
-                                <div class="price header white-text  pricing-junior-bg-color  pl-3 pt-3">
+                                <div class="price text-center header white-text  pricing-junior-bg-color  pl-3 pt-3">
                                     <h1>$15/hr</h1>
                                     <div class="version">
                                         <h5>Junior</h5>
@@ -279,7 +279,7 @@
                             <!--Pricing card-->
                             <div class="card pricing-card">
                                 <!--Price-->
-                                <div class="price header white-text pl-3 pt-3 pricing-mid-bg-color">
+                                <div class="price text-center header white-text pl-3 pt-3 pricing-mid-bg-color">
                                     <h1>$29/hr</h1>
                                     <div class="version">
                                         <h5>Mid-Level
@@ -321,7 +321,7 @@
                             <!--Pricing card-->
                             <div class="card pricing-card">
                                 <!--Price-->
-                                <div class="price header pricing-expert-bg-color white-text pl-3 pt-3  ">
+                                <div class="price text-center header pricing-expert-bg-color white-text pl-3 pt-3  ">
                                     <h1>$45/hr</h1>
                                     <div class="version">
                                         <h5>Expert</h5>
@@ -594,12 +594,12 @@
                 </div>
                 <!--Grid column-->
 
-            </div>
-            <!--Grid row-->
+            <!--</div>-->
+            <!--&lt;!&ndash;Grid row&ndash;&gt;-->
 
-            <!--Grid row-->
-            <!--2-->
-            <div class="row features-big">
+            <!--&lt;!&ndash;Grid row&ndash;&gt;-->
+            <!--&lt;!&ndash;2&ndash;&gt;-->
+            <!--<div class="row features-big">-->
 
                 <!--Grid column-->
                 <div class="col-md-4 col-sm-6 col-12 mb-r">
@@ -1000,8 +1000,8 @@
 //
 //            $(this).closest('.collapse').collapse('hide');
 //        });
-//        $(window).on('load scroll', function (e) {
-//
+        $(window).on('load scroll', function (e) {
+
 //            $('.js-nav-container').each(function (index, item) {
 //
 //                if ($(item).offset().top < $(window).scrollTop() + $(window).height() / 2) {
@@ -1009,7 +1009,7 @@
 //                    $('.nav-link[href="#' + $(item).attr('id') + '"]').closest('.nav-item').addClass('active');
 //                }
 //            })
-//        });
+        });
 
     });
 
