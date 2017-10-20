@@ -40,6 +40,9 @@
 .corporate-bg-color-light{
     background-color: #3399cc !important;
 }
+.corporate-bg-color-dark{
+    background-color: #003366 !important;
+}
 
 .navbar {
     background-color: transparent;
@@ -159,10 +162,32 @@ footer.page-footer .footer-copyright {
 }
 
 #what-we-do .figure-img {
-        width: 150px;
+        width: 50px;
 }
 
 .feature-icon {
     font-size: 3rem;
 }
 
+#pricing .nav-tabs .nav-item.show .nav-link,#pricing  .nav-tabs .nav-link.active {
+    color: #495057;
+    background-color: rgba(255, 255, 255, 0.31);
+    border: none;
+    border-radius: 1%;
+}
+
+#pricing .nav-tabs   .nav-link:hover{
+    border: none    ;
+}
+
+.pricing-junior-bg-color{
+    background-color: #4f98c7;
+}
+
+.pricing-mid-bg-color{
+      background-color: #1a6294;
+  }
+
+.pricing-expert-bg-color{
+    background-color: #01406b;
+}
