@@ -3,13 +3,18 @@
     font-family: 'DDT Book'; /*a name to be used later*/
     src: url('../font/ddt/9e0af7b266012759dfab3e8052917943.ttf');
 }
+.bg-gray-gradient {
+    background-image: -webkit-linear-gradient(90deg, rgba(213, 213, 213, 1), rgba(240, 240, 240, 1));
+}
 
-.navbar:not(.top-nav-collapse) {
+.navbar {
 
     /*background: #D5D5D5 !important;*/
     background-image: -webkit-linear-gradient(90deg, rgba(213, 213, 213, 1), rgba(240, 240, 240, 1));
     color: #3399cc !important;
 }
+
+
 
 .corporate-font {
     font-family: "DDT Book";
@@ -152,6 +157,9 @@ footer.page-footer .footer-copyright {
 }
 
 @media (max-width: 740px) {
+    .blockquote {
+        font-size: 0.8rem;
+    }
 
     .top-nav-icon-container {
         font-size: 16px;
@@ -200,29 +208,29 @@ footer.page-footer .footer-copyright {
     transition: height 0.5s ease-out 0.1s;
 }
 
-#navbar-top {
-    navbar-top: 4.3rem;
+/*#navbar-top {*/
+/*navbar-top: 4.3rem;*/
 
-}
+/*}*/
 
-section {
-    background-color: white;
-}
+/*section {*/
+/*background-color: white;*/
+/*}*/
 
-body {
-    background-color: white;
-}
+/*body {*/
+/*background-color: white;*/
+/*}*/
 
 /*video.video-parallax {*/
-    /*position: fixed !important;*/
-    /*top: 0;*/
-    /*left: 0;*/
-    /*width: 100%;*/
-    /*height: 50%;*/
+/*position: fixed !important;*/
+/*top: 0;*/
+/*left: 0;*/
+/*width: 100%;*/
+/*height: 50%;*/
 /*}*/
 
 @media (min-width: 768px) {
-    #navbar-top .navbar-nav > li > a:after {
+    #navbar-top .navbar-nav > li:not(.not-activable) > a:after {
         content: "";
         display: block;
         position: absolute;
@@ -241,7 +249,16 @@ body {
         transition: width 0.1s ease-in-out;
     }
 
-    #navbar-top .navbar-nav > li > a:hover:after{
+    #navbar-top .navbar-nav > li > a:hover:after {
         width: 100%;
     }
+
+}
+
+@media (max-width: 768px) {
+    .streak.streak-md {
+        height: auto;
+    }
+}
+
 }
