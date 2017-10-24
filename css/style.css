@@ -96,21 +96,15 @@
     /*background-position: center;*/
 /*}*/
 
-.streak.streak-md {
-    height: 400px;
-}
+.quote-section {
 
-.streak {
     display: block;
     position: relative;
     overflow: hidden;
-    height: 250px;
+    height: 400px;
 }
 
-footer.page-footer .footer-copyright {
-    height: auto;
-    background-image: -webkit-linear-gradient(45deg, rgba(169, 169, 169, 0.79), rgba(229, 229, 229, 0.9) 100%);
-}
+
 
 .divider-new:after, .divider-new:before {
 
@@ -125,7 +119,7 @@ footer.page-footer .footer-copyright {
     color: #3399cc !important;
 }
 
-.navbar.navbar-light .navbar-nav .nav-item .nav-link {
+.navbar  .navbar-nav .nav-item .nav-link {
 
     color: #808D9E !important;
 
@@ -133,6 +127,7 @@ footer.page-footer .footer-copyright {
 
 #navbar-top .nav-item.active > .nav-link {
     background: inherit;
+    position:relative;
     /*border-bottom: 1px solid #003366;*/
     /*color: #003366 !important;*/
 }
