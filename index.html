@@ -220,12 +220,16 @@
             <ul class="nav nav-tabs  nav-justified  corporate-bg-color-light  p-3" id="pricingTab" role="tablist">
                 <li class="nav-item   waves-effect waves-light">
                     <a class="nav-link active white-text" data-toggle="tab" href="#full-time-pricing"
-                       data-target="#full-time-pricing" role="tab" aria-controls="full-time-pricing">Full-time
+                       data-target="#full-time-pricing" role="tab" aria-controls="full-time-pricing">
+                        <span class="font-bold">Full-time</span>
+                        <br>
                         (Dedicated)</a>
                 </li>
                 <li class="nav-item   waves-effect waves-light">
                     <a class="nav-link white-text" data-toggle="tab" href="#hourly-pricing"
-                       data-target="#hourly-pricing" role="tab" aria-controls="hourly-pricing">Hourly (On-Demand)</a>
+                       data-target="#hourly-pricing" role="tab" aria-controls="hourly-pricing">
+                        <span class="font-bold">Hourly </span>
+                            <br>(On-Demand)</a>
                 </li>
 
             </ul>
@@ -1068,7 +1072,7 @@
         });
 
         $(window).on('load scroll', function (e) {
- 
+
 
             if ($(window).scrollTop() > 50 && window.matchMedia('screen and (min-width: 990px)').matches) {
 
