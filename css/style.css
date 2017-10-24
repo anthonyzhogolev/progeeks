@@ -131,10 +131,10 @@ footer.page-footer .footer-copyright {
 
 }
 
-.navbar.navbar-light .navbar-nav .nav-item.active > .nav-link {
+#navbar-top .nav-item.active > .nav-link {
     background: inherit;
-    border-bottom: 1px solid #003366;
-    color: #003366 !important;
+    /*border-bottom: 1px solid #003366;*/
+    /*color: #003366 !important;*/
 }
 
 .btn-outline-corporate-light {
@@ -258,7 +258,9 @@ footer.page-footer .footer-copyright {
     #navbar-top .navbar-nav > li > a:hover:after {
         width: 100%;
     }
-
+    #navbar-top .navbar-nav > li.active > a:after {
+        width: 100%;
+    }
 }
 
 @media (max-width: 768px) {

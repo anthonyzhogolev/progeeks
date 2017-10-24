@@ -55,15 +55,18 @@
                         <a class="nav-link   font-weight-bold  pb-0  "
                            href="#pricing">Pricing</a>
                     </li>
-                    <li class="nav-item pt-2 px-2">
-                        <a class="nav-link   font-weight-bold  pb-0  "
-                           href="#our-team">Who we are</a>
-                    </li>
 
                     <li class="nav-item pt-2 px-2">
                         <a class="nav-link   font-weight-bold  pb-0  "
                            href="#why-us">Why us</a>
                     </li>
+
+                    <li class="nav-item pt-2 px-2">
+                        <a class="nav-link   font-weight-bold  pb-0  "
+                           href="#our-team">Who we are</a>
+                    </li>
+
+
 
                     <li class="nav-item pt-2 px-2 top-nav-icon-container">
                         <a class="nav-link   font-weight-bold  pb-0  "
@@ -205,7 +208,7 @@
     </section>
 
 
-    <section id="pricing js-anchor-container" class="pb-3   ">
+    <section id="pricing" class="js-anchor-container" class="pb-3   ">
 
         <div class="container ">
             <div class="divider-new pt-5">
@@ -1066,6 +1069,7 @@
 
         $(window).on('load scroll', function (e) {
             var cardTop= $('.quote-section .card').offset().top
+            bgY = $('.quote-section').css('background-position-y');
             var bgTop = parseInt(bgY.substr(0,bgY.indexOf('px')))+$('.quote-section').offset().top;
             if(cardTop>bgTop){
                 $('.quote-section .card').offset({top:bgTop});
@@ -1080,13 +1084,13 @@
                 $('#navbar-top').css('height', 'auto');
 
             }
-//            $('.js-anchor-container').each(function (index, item) {
-//
-//                if ($(item).offset().top < $(window).scrollTop() + $(window).height() / 2) {
-//                    $('.nav-item').removeClass('active');
-//                    $('.nav-link[href="#' + $(item).attr('id') + '"]').closest('.nav-item').addClass('active');
-//                }
-//            })
+            $('.js-anchor-container').each(function (index, item) {
+
+                if ($(item).offset().top < $(window).scrollTop() + $(window).height() / 2) {
+                    $('.nav-item').removeClass('active');
+                    $('.nav-link[href="#' + $(item).attr('id') + '"]').closest('.nav-item').addClass('active');
+                }
+            })
         });
         $('#navbar-top .nav-link').click(function (e) {
             $('html, body').stop().animate({
