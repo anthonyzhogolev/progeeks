@@ -122,12 +122,12 @@
 .navbar  .navbar-nav .nav-item .nav-link {
 
     color: #808D9E !important;
-
+    position:relative;
 }
 
 #navbar-top .nav-item.active > .nav-link {
     background: inherit;
-    position:relative;
+
     /*border-bottom: 1px solid #003366;*/
     /*color: #003366 !important;*/
 }
