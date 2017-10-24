@@ -3,6 +3,7 @@
     font-family: 'DDT Book'; /*a name to be used later*/
     src: url('../font/ddt/9e0af7b266012759dfab3e8052917943.ttf');
 }
+
 .bg-gray-gradient {
     background-image: -webkit-linear-gradient(90deg, rgba(213, 213, 213, 1), rgba(240, 240, 240, 1));
 }
@@ -13,8 +14,6 @@
     background-image: -webkit-linear-gradient(90deg, rgba(213, 213, 213, 1), rgba(240, 240, 240, 1));
     color: #3399cc !important;
 }
-
-
 
 .corporate-font {
     font-family: "DDT Book";
@@ -85,15 +84,15 @@
 }
 
 /*!*@media (min-width: 1366px) {*!*/
-    /*.streak.streak-photo {*/
-        /*background-attachment: fixed;*/
-    /*}*/
+/*.streak.streak-photo {*/
+/*background-attachment: fixed;*/
+/*}*/
 /*!*}*!*/
 
 /*.streak.streak-photo {*/
-    /*background-repeat: no-repeat;*/
-    /*background-size: auto auto;*/
-    /*background-position: center;*/
+/*background-repeat: no-repeat;*/
+/*background-size: auto auto;*/
+/*background-position: center;*/
 /*}*/
 
 .quote-section {
@@ -103,8 +102,6 @@
     overflow: hidden;
     height: 400px;
 }
-
-
 
 .divider-new:after, .divider-new:before {
 
@@ -119,10 +116,10 @@
     color: #3399cc !important;
 }
 
-.navbar  .navbar-nav .nav-item .nav-link {
+.navbar .navbar-nav .nav-item .nav-link {
 
     color: #808D9E !important;
-    position:relative;
+    position: relative;
 }
 
 #navbar-top .nav-item.active > .nav-link {
@@ -157,6 +154,7 @@
         font-size: 0.9rem;
     }
 }
+
 @media (max-width: 740px) {
     .blockquote {
         font-size: 0.8rem;
@@ -253,6 +251,7 @@
     #navbar-top .navbar-nav > li > a:hover:after {
         width: 100%;
     }
+
     #navbar-top .navbar-nav > li.active > a:after {
         width: 100%;
     }
@@ -264,3 +263,6 @@
     }
 }
 
+.nav-tabs .nav-link {
+    border: none;
+}
