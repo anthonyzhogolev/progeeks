@@ -1,7 +1,13 @@
+function SumbitContactForm()
+{
+    jQuery('#ajax-contact').submit();
+}
+
 $(function () {
 
     // Get the form.
     var form = $('#ajax-contact');
+
 
     // Get the messages div.
     var formMessages = $('#form-messages');

@@ -55,8 +55,9 @@
 }
 
 .quote-section {
-    background-position: top left;
+    background-position: 0 50%;
     background-size: cover;
+    background-attachment: fixed;
     background-image: url('../img/png/quote-block-background-2.png');
 }
 
@@ -83,17 +84,17 @@
     color: #000 !important;
 }
 
-@media (min-width: 1366px) {
-    .streak.streak-photo {
-        background-attachment: fixed;
-    }
-}
+/*!*@media (min-width: 1366px) {*!*/
+    /*.streak.streak-photo {*/
+        /*background-attachment: fixed;*/
+    /*}*/
+/*!*}*!*/
 
-.streak.streak-photo {
-    background-repeat: no-repeat;
-    background-size: cover;
-    background-position: center;
-}
+/*.streak.streak-photo {*/
+    /*background-repeat: no-repeat;*/
+    /*background-size: auto auto;*/
+    /*background-position: center;*/
+/*}*/
 
 .streak.streak-md {
     height: 400px;
@@ -156,6 +157,11 @@ footer.page-footer .footer-copyright {
     font-size: 1rem;
 }
 
+@media (max-width: 1199px) {
+    .blockquote {
+        font-size: 0.9rem;
+    }
+}
 @media (max-width: 740px) {
     .blockquote {
         font-size: 0.8rem;
