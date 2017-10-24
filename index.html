@@ -1068,12 +1068,7 @@
         });
 
         $(window).on('load scroll', function (e) {
-            var cardTop= $('.quote-section .card').offset().top
-            bgY = $('.quote-section').css('background-position-y');
-            var bgTop = parseInt(bgY.substr(0,bgY.indexOf('px')))+$('.quote-section').offset().top;
-            if(cardTop>bgTop){
-                $('.quote-section .card').offset({top:bgTop});
-            }
+ 
 
             if ($(window).scrollTop() > 50 && window.matchMedia('screen and (min-width: 990px)').matches) {
 
