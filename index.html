@@ -29,7 +29,7 @@
 
     <!--Navbar-->
     <nav id="navbar-top"
-         class="navbar  bg-gray-gradient navbar-expand-lg navbar-light  fixed-top  scrolling-navbar animated">
+         class="navbar  bg-gray-gradient navbar-expand-lg navbar-light  fixed-top  scrolling-navbar  ">
         <div class="container">
             <a class="mr-auto " href="#">
                 <img src="img/svg/logo.svg" height="39" class="d-inline-block logo-img " alt="">
@@ -43,7 +43,7 @@
 
             <div class="collapse navbar-collapse justify-content-lg-end" id="top-navbarSupportedContent">
 
-                <ul class="navbar-nav align-items-end corporate-font smooth-scroll">
+                <ul class="navbar-nav align-items-end corporate-font ">
 
 
                     <li class="nav-item  pt-2 px-2">
@@ -218,14 +218,14 @@
 
         <div class="container my-5 tabs-wrapper">
             <ul class="nav nav-tabs  nav-justified  corporate-bg-color-light  p-3" id="pricingTab" role="tablist">
-                <li class="nav-item   waves-effect waves-light">
+                <li class="nav-item   ">
                     <a class="nav-link active white-text" data-toggle="tab" href="#full-time-pricing"
                        data-target="#full-time-pricing" role="tab" aria-controls="full-time-pricing">
                         <span class="font-bold">Full-time</span>
                         <br>
                         (Dedicated)</a>
                 </li>
-                <li class="nav-item   waves-effect waves-light">
+                <li class="nav-item  ">
                     <a class="nav-link white-text" data-toggle="tab" href="#hourly-pricing"
                        data-target="#hourly-pricing" role="tab" aria-controls="hourly-pricing">
                         <span class="font-bold">Hourly </span>
@@ -1015,7 +1015,7 @@
 <!-- Bootstrap core JavaScript -->
 <script type="text/javascript" src="js/bootstrap.min.js"></script>
 <!-- MDB core JavaScript -->
-<script type="text/javascript" src="js/mdb.min.js"></script>
+<script type="text/javascript" src="js/mdb.js"></script>
 
 <script type="text/javascript" src="js/contact-form.js"></script>
 
@@ -1027,7 +1027,7 @@
 
 <script>
     jQuery(function ($) {
-
+        Waves.calm ('.navbar-nav a:not(.navbar-brand) , .nav-icons li a, .navbar form, .nav-tabs .nav-item');
         $('.quote-section').parallax("0%", 0.6);
 //        $('.quote-section .container .row').parallax("0%",0.6 );
 
@@ -1042,7 +1042,7 @@
         })
         wow.init();
 
-
+//        $('#navbar-top .nav-link').
         //todo:rework it
         $('#pricingTab a:first').tab('show');
 
