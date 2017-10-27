@@ -570,9 +570,7 @@
 
                     </figure>
                     <h3 class="feature-title corporate-color-light font-weight-normal h4">Easy Communication</h3>
-                    <p class="corporate-color-dark">ProGeeks staff speak english and available for communication on
-                        email or messenger up to noon or at late evenings US time. Emergency contact is available
-                        24/7</p>
+                    <p class="corporate-color-dark">ProGeeks staff speak English and are available by email or Messenger in the morning or late evenings local U.S. time. Emergency contact is also available 24/7</p>
                 </div>
                 <!--Grid column-->
 
@@ -1057,7 +1055,7 @@
         });
 
         $(window).on('activate.bs.scrollspy', function (e, data) {
-            var currentUrl = window.origin;
+            var currentUrl = window.origin+window.location.pathname;
             if (data.relatedTarget && data.relatedTarget !== '#intro') {
                 currentUrl += data.relatedTarget;
             }
