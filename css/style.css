@@ -63,7 +63,7 @@
 .hm-gradient .full-bg-img {
     background: -webkit-linear-gradient(45deg, rgba(8, 65, 105, 0.5), rgba(229, 229, 229, 0.9) 100%);
     background: -webkit-linear-gradient(45deg, rgba(8, 65, 105, 0.5), rgba(229, 229, 229, 0.9) 100%);
-    /*background: linear-gradient(to 45deg, rgba(29, 236, 197, 0.4), rgba(96, 0, 136, 0.4) 100%);*/
+
 }
 
 @media (max-width: 740px) {

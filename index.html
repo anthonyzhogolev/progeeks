@@ -22,7 +22,7 @@
 
 <header>
     <!--Navbar-->
-    <nav id="navbar-top" class="navbar bg-gray-gradient navbar-expand-lg  fixed-top">
+    <nav id="navbar-top" class="navbar bg-gray-gradient navbar-expand-lg  fixed-top navbar-light  ">
         <div class="container">
             <!--Top logo-->
             <a class="mr-auto " href="#">
@@ -32,12 +32,12 @@
 
             <button class="navbar-toggler ml-auto" type="button" data-toggle="collapse"
                     data-target="#top-navbarSupportedContent"
-                    aria-controls="navba    rSupportedContent-7" aria-expanded="false" aria-label="Toggle navigation">
+                    aria-controls="navbar  top-navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
                 <span class="navbar-toggler-icon"></span>
             </button>
 
             <div class="collapse navbar-collapse justify-content-lg-end" id="top-navbarSupportedContent">
-                <ul class="navbar-nav align-items-end corporate-font">
+                <ul class="navbar-nav align-items-end corporate-font" id="top-navbar-nav">
                     <li style="display: none" class="nav-item pt-2 px-2">
                         <a class="nav-link font-weight-bold  pb-0" href="#intro">Welcome</a>
                     </li>
@@ -894,7 +894,8 @@
                                         data-size="invisible"></div>
 
                                         <i id="contact-form-loader" class="fa fa-circle-o-notch fa-spin loader" style="font-size:24px;display:none;"></i>
-                                        <button id="contact-form-btn" >Submit</button>
+                                        <button id="contact-form-btn" class="btn corporate-bg-color-light btn-rounded btn-lg" >Send <i class="fa fa-paper-plane-o ml-1"></i></button>
+
                                     </div>
                                 </div>
                     </form>
@@ -1001,7 +1002,7 @@
 <script type="text/javascript" src="js/contact-form.js"></script>
 <script>
     jQuery(function ($) {
-
+//        Waves.calm ('.navbar-nav a:not(.navbar-brand) , .nav-icons li a, .navbar form, .nav-tabs .nav-item');
         $('.quote-section').parallax("0%", 0.6);
 
         wow = new WOW({
@@ -1046,6 +1047,7 @@
             $('html, body').stop().animate({
                 scrollTop: $($(this).attr('href')).offset().top - 160
             }, 400);
+            $(this).closest('.collapse').collapse('hide');
             return false;
         });
 
@@ -1060,6 +1062,7 @@
                 currentUrl += data.relatedTarget;
             }
             window.history.pushState({}, '', currentUrl);
+
         });
 
 
